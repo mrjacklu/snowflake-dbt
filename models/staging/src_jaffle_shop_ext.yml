@@ -1,0 +1,7 @@
+version: 2
+
+sources:
+  - name: jaffle_shop_ext
+    database: raw
+    tables:
+      - name: products

@@ -1,0 +1,10 @@
+version: 2
+
+seeds:
+  - name: employees
+    description: a mapping of employee ids
+    columns:
+      - name: employee_id
+        tests:
+          - unique
+          - not_null
